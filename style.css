@@ -388,6 +388,7 @@ nav{
   }
   .formulario__titulo {
     text-align: center;
+    margin: 40px;
     margin-top: 0;
     color: rgba(0,0,0,0.7);
   }
@@ -413,7 +414,7 @@ nav{
     position: absolute;
     margin-top: -85px;
     z-index: -20;
-    color: rgba(0,0,0,0.5);
+    color: rgb(0, 0, 0);
     transition: all 0.2s;
   }
   .formulario__submit {
