@@ -42,7 +42,7 @@ body {
     background-position: center;
     background-size: contain;
   }
-  .container {
+  .mainimg {
     padding: 20px;
   }
   
@@ -177,7 +177,7 @@ body {
     background-position: center;
     background-size: contain;
   }
-  .container {
+  .mainimg {
     padding: 20px;
   }
  div.galeria {
@@ -380,6 +380,7 @@ nav{
     padding: 20px;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
     position: relative;
+    margin-top: 65px;
 
     .formulario__titulo {
     text-align: center;
@@ -501,7 +502,7 @@ nav{
     right: 0;
     top: 0;
     transform-origin: center;
-    trsnsform: scale(1) translateZ(0);
+    transform: scale(1) translateZ(0);
     transition: 
       filter 200ms linear,
       transform 200ms linear;
@@ -534,5 +535,18 @@ nav{
     word-spacing: 100vw;
    }
   }
- }
+}
+}
+p.flotador {
+  border: solid;
+  border-radius: 15px;
+  color: #6e9569;
+  background-color: #a5c1d9;
+  display: grid;
+  box-sizing: border-box;
+}
+
+p.flotador>a {
+  padding: 20px;
+  color: #b3b334;
 }

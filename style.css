@@ -36,11 +36,11 @@ body {
     background-position: center;
     background-size: contain;
   }
-  .container {
+  .mainimg {
     padding: 20px;
   }
   
-  .labelImg {
+  .labelImg1 {
     background-color: rgb(255,255,255);
     padding:5px;
     background-repeat: no-repeat;
@@ -169,14 +169,14 @@ body {
     background-position: center;
     background-size: contain;
   }
-  .container {
+  .mainimg {
     padding: 20px;
   }
  div.galeria {
     height: 360px;
  }
   
-  .labelImg {
+  .labelImg1 {
     background-color: rgb(255,255,255);
     padding:5px;
     height: 600px;
@@ -282,7 +282,7 @@ nav{
     display: none;
 }
 
-@media screen and (max-width: 319px){
+@media screen and (max-width: 309px){
     nav{
         position: fixed;
         z-index: 3;
@@ -301,7 +301,7 @@ nav{
     li>a {
         color: #000000;
         box-sizing: border-box;
-        font-size: 20px;
+        font-size: 13px;
     
     }
     .nav-links{
@@ -373,6 +373,7 @@ nav{
     padding: 20px;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
     position: relative;
+    margin-top: 60px;
   }
   .formulario__titulo {
     text-align: center;
@@ -532,6 +533,15 @@ nav{
 a {
     cursor: pointer;
     text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  margin: 0 0.7vw;
+  color: #000000;
+  font-size: 10px;
+  margin: 0 6px;
 }
 
 .contenedor-redes-sociales {
@@ -645,11 +655,11 @@ a {
 }
 
 .contenedor-redes-sociales .gplus:hover, .contenedor-redes-sociales .gplus span.circulo {
-    background: #dd4b39;
+    background: #cf144c;
 }
 
 .contenedor-redes-sociales .gplus:hover span.circulo, .contenedor-redes-sociales .gplus span.titulo {
-    color: #dd4b39;
+    color: #cf144c;
 }
 
 
@@ -661,6 +671,35 @@ a {
         margin: 0;
         margin-bottom: 10px;
     }
+
+    p.flotador {
+        border: solid;
+        border-radius: 15px;
+        color: #6e9569;
+        background-color: #a5c1d9;
+        display: grid;
+        box-sizing: border-box;
+      }
+      
+      p.flotador>a {
+        padding: 20px;
+        color: #b3b334;
+      }
 }
 
- 
+p.flotador {
+    border: solid;
+    border-radius: 15px;
+    color: #ffffff21;
+    background-color: #92898960;
+    display: grid;
+    box-sizing: border-box;
+  }
+  
+  p.flotador>a {
+    padding: 20px;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+  }
+----------------------------------------------
